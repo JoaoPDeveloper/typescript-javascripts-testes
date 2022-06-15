@@ -1,0 +1,3 @@
+otpauth://totp/Binance.com:zarkoinddy%40gmail.com?secret=OJHI3U2HDCT7PRX6&issuer=Binance.com
+otpauth://totp/Heroku:Joao%20Pedro?secret=PW7FJ72LYBYVZHRT2WV2UQ6ECHWEV77L&issuer=Heroku
+otpauth://totp/Gravity%20Zone%20Cloud:joao_rubronegro%40hotmail.com?secret=ONNSJXYQW45JSL6ZOUWSCT3DEE&issuer=Gravity%20Zone%20Cloud

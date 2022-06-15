@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR   ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3a5540dbd0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn-icons.flaticon.com/png/512/3503/premium/3503713.png?token=exp=1654983657~hmac=ed73a0c6c95ea26a66d91d2ae7acefe2" rel="icon">
+    <title>João Pedro</title>
+</head>
+<body>
+    <header>
+        <div>
+            <br>
+            <img class="Logo" src="./scissor-seven.gif" alt="Logo">
+        </div>
+        <ul>
+            <li>
+                <br>
+                <a href="https://github.com/JoaoPDeveloper" target="_blank">GitHub</a><br><br>
+            </li>
+            <li>
+                <br>
+                <a href="https://www.linkedin.com/in/joao-dev-starter/" target="_blank">Linkedin</a><br><br>
+            </li>
+            <li>
+                <br>
+                <a href="mailto:joao_entreprise@hotmail.com">E-mail</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>João Pedro</h1>
+                <br>
+                <h5>FullStack Developer</h5>
+                <br>
+                <br>
+            </div>
+            
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-circle-down"></i>
+            </div>
+            
+            <div style="display: none;":  id="about">
+                <br>
+                <p>
+               Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
+                Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, 
+                espiritis santis. Cevadis im ampola pa arma uma pindureta.
+                </p>
+            </div>
+            <div class="form">
+                <div>
+                    <p>Entre em contato!</p>
+                </div>
+                <form action="e-mail">
+                    <br>
+                    <input type="text" placeholder="Coloque o seu email =)">
+                    <a button href="mailto:joao_entreprise@hotmail.com">Enviar!</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation')
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about')
+            display.classList.toggle('active');
+        }
+    </script>
+
+<div onclick="displayAbout()" id="flecha">
+    <i id="flecha" class="fa-solid fa-circle-down"></i>
+</div>
+
+<div style="display: none;":  id="about">
+    <br>
+    <p>
+   Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.
+    Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, 
+    espiritis santis. Cevadis im ampola pa arma uma pindureta.
+    </p>
+
+    
+</body>
+</html>

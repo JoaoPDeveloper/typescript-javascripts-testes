@@ -13,6 +13,8 @@ ul{
 }
 a{
     text-decoration: none;
+    border-radius: 4px;
+    border-color: #464646;
 }
 body{
     background: url(./foto2.jpg) no-repeat center center fixed;
